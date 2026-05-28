@@ -24,7 +24,7 @@
      </ul>
     </li>
     <li><a href="/contact" class="hover:text-yellow-300">Contact</a></li>
-</ul>    
+</ul>  
 </nav>
     
 </template>
