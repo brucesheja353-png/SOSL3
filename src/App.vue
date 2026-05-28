@@ -3,7 +3,7 @@
 
 <template>
   <img src="/src/assets/sos logo.png" alt="SOS Logo" class="w-45 h-28 mx-auto">
-  <h1 Class="font-bold text-center text-blue-700 text-3xl">SOS Blog</h1><br><br>
+  <h1 Class="font-bold text-center text-blue-700 text-3xl">SOS</h1><br><br>
   <p class="font-thin text-center text-1.5xl text-gray-700  flex justify-center items-center ml-110"></p>
   
   <div>
@@ -21,6 +21,5 @@
     From computer labs with enterprise-grade equipment to construction workshops with professional tools, 
     every space is built to produce job-ready graduates.</p>
   </p>
-  
 </template>
 
