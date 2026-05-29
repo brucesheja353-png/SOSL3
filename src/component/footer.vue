@@ -63,7 +63,7 @@
      </div>
              <!-- place for copy right -->
               <div class="border-t border-green-600 mt-8 pt-4 text-sm text-green-300">
-                <p class="text-center">©️ 2025  Visit Rwanda. All right reserved. Done by Bruce</p>
+                <p class="text-center"> ©2025  Visit Rwanda. All right reserved. Done by Bruce</p>
               </div>  
 </footer>    
 </template>
