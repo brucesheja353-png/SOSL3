@@ -25,6 +25,9 @@
                 <li>
                     <RouterLink to="/destination" class="hover:text-yellow-300">Destination</RouterLink>
                 </li>
+                <li>
+                    <RouterLink to="/contact" class="hover:text-yellow-300">Contact</RouterLink>
+                </li>
             </ul>
          </div>
            <!-- Destination -->
@@ -53,7 +56,7 @@
                 <h3 class="text-yellow-300 font-bold text-Ig mb-3">Contact</h3>
                 <ul class="space-y-2 text-sm">
                     <li>brucesheja353@gmail.com</li>
-                    <li>+0786718062</li>
+                    <li>+250786718062</li>
                     <li>Kagugu Kigali Rwanda</li>
                 </ul>
     </div>
