@@ -11,7 +11,7 @@
           <div class="space-y-5">
             <div>
               <h2 class="text-xl font-semibold text-white">Email</h2>
-              <p class="text-slate-300">hello@rwandatravel.com</p>
+              <p class="text-slate-300">brucesheja353@gmail.com</p>
             </div>
             <div>
               <h2 class="text-xl font-semibold text-white">Phone</h2>
