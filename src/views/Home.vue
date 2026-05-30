@@ -1,6 +1,6 @@
 <script setup></script>
 <template>
-  <section class="relative min-h-screen bg-cover bg-center flex items-center justify-center text-white" style="background-image: url('/src/assets/Hills.jpg');">
+  <section class="relative min-h-screen bg-cover bg-center flex items-center justify-center text-white" style="background-image: url('/src/assets/Land of a thousand.jpg');">
     <div class="absolute inset-0 bg-black/60"></div>
     <div class="relative max-w-4xl text-center px-6 py-24">
       <p class="text-sm uppercase tracking-[0.4em] text-emerald-300 mb-4">Discover Rwanda</p>
