@@ -1,14 +1,18 @@
+<script setup>
+import { t } from '../langStore.js'
+</script>
+
 <template>
 <footer class="bg-green-800 text-white px-8 py-10 mt-10">
     <div class="flex flex-wrap justify-between gap-8">
         <!--this is about of footer-->
         <div>
-           <h3 class="text-yellow-300 font-bold text-Ig mb-3">TEMBERA URWANDA</h3>
-           <p class="text-sm text-green-200">Discover the beauty of the land of a Thousand hills</p>  
+           <h3 class="text-yellow-300 font-bold text-Ig mb-3">{{ t('footer.title') }}</h3>
+           <p class="text-sm text-green-200">{{ t('footer.description') }}</p>  
         </div>
         <!-- Quick links -->
          <div>
-            <h3 class="text-yellow-300 font-bold text-Ig mb-3">Quick links</h3>
+            <h3 class="text-yellow-300 font-bold text-Ig mb-3">{{ t('footer.links') }}</h3>
             <ul class="space-y-2 text-sm">
                 <li>
                     <RouterLink to="/" class="hover:text-yellow-300">Home</RouterLink>
@@ -32,7 +36,7 @@
          </div>
            <!-- Destination -->
             <div>
-                <h3 class="text-yellow-300 font-bold text-Ig mb-3">Destination</h3>
+                <h3 class="text-yellow-300 font-bold text-Ig mb-3">{{ t('footer.destination') }}</h3>
                 <ul class="space-y-2 text-sm">
                     <li>
                         <RouterLink to="/northern" class="hover:text-yellow-300">Northern Province</RouterLink>
@@ -53,7 +57,7 @@
             </div>
             <!-- Contact info -->
              <div>
-                <h3 class="text-yellow-300 font-bold text-Ig mb-3">Contact</h3>
+                <h3 class="text-yellow-300 font-bold text-Ig mb-3">{{ t('footer.contact') }}</h3>
                 <ul class="space-y-2 text-sm">
                     <li>brucesheja353@gmail.com</li>
                     <li>+250786718062</li>
@@ -63,7 +67,7 @@
      </div>
              <!-- place for copy right -->
               <div class="border-t border-green-600 mt-8 pt-4 text-sm text-green-300">
-                <p class="text-center"> ©2025  Visit Rwanda. All right reserved. Done by Bruce</p>
+                <p class="text-center">{{ t('footer.copy') }}</p>
               </div>  
 </footer>    
 </template>
