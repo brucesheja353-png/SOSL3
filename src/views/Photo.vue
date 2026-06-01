@@ -1,5 +1,10 @@
 <script setup>
 import { t } from '../langStore.js'
+
+const landscapeImage = new URL('../assets/Land of a thousand.jpg', import.meta.url).href
+const wildlifeImage = new URL('../assets/Rwanda Leopard.jpg', import.meta.url).href
+const cityImage = new URL('../assets/City.jpg', import.meta.url).href
+const cultureImage = new URL('../assets/Traditional.jpg', import.meta.url).href
 </script>
 
 <template>
@@ -13,21 +18,21 @@ import { t } from '../langStore.js'
 
       <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         <article class="overflow-hidden rounded-3xl bg-white shadow-lg transition hover:scale-[1.02]">
-          <img src="https://images.unsplash.com/photo-1517602302552-471fe67acf66?w=900&h=700&fit=crop" alt="Rwanda landscape" class="h-72 w-full object-cover">
+          <img :src="landscapeImage" alt="Rwanda rolling hills" class="h-72 w-full object-cover">
           <div class="p-6">
             <h2 class="text-2xl font-semibold text-green-900 mb-3">Rwanda Landscapes</h2>
             <p class="text-gray-600">A beautiful view of Rwanda’s rolling hills, lakes, and verdant countryside.</p>
           </div>
         </article>
         <article class="overflow-hidden rounded-3xl bg-white shadow-lg transition hover:scale-[1.02]">
-          <img src="https://images.unsplash.com/photo-1519677100203-a0e668c92439?w=900&h=700&fit=crop" alt="Gorillas" class="h-72 w-full object-cover">
+          <img :src="wildlifeImage" alt="Rwanda wildlife" class="h-72 w-full object-cover">
           <div class="p-6">
             <h2 class="text-2xl font-semibold text-green-900 mb-3">Wildlife</h2>
             <p class="text-gray-600">Capture moments with gorillas, chimpanzees, and other wildlife in Rwanda’s protected parks.</p>
           </div>
         </article>
         <article class="overflow-hidden rounded-3xl bg-white shadow-lg transition hover:scale-[1.02]">
-          <img src="https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?w=900&h=700&fit=crop" alt="Culture" class="h-72 w-full object-cover">
+          <img :src="cityImage" alt="Rwanda city life" class="h-72 w-full object-cover">
           <div class="p-6">
             <h2 class="text-2xl font-semibold text-green-900 mb-3">Cultural Life</h2>
             <p class="text-gray-600">Colorful portraits of local traditions, markets, and community celebrations.</p>
@@ -41,7 +46,7 @@ import { t } from '../langStore.js'
           <p class="text-gray-200 leading-8">{{ t('photo.text') }}</p>
         </article>
         <article class="overflow-hidden rounded-3xl bg-white shadow-xl">
-          <img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98?w=900&h=700&fit=crop" alt="Sunset" class="h-full w-full object-cover">
+          <img :src="cultureImage" alt="Rwandan cultural scene" class="h-full w-full object-cover">
         </article>
       </div>
     </div>

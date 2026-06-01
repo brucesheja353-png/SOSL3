@@ -4,7 +4,7 @@ import { t } from '../langStore.js'
 
 <template>
   <!-- Hero Section -->
-  <section class="relative min-h-96 bg-cover bg-center flex items-center justify-center text-white mt-16" style="background-image: url('https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1200&h=400&fit=crop');">
+  <section class="relative min-h-96 bg-cover bg-center flex items-center justify-center text-white mt-16" style="background-image: url('/north.png');">
     <div class="absolute inset-0 bg-black/50"></div>
     <div class="relative text-center px-6 max-w-3xl">
       <h1 class="text-5xl md:text-6xl font-extrabold mb-4">{{ t('provinces.northern.title') }}</h1>
@@ -51,14 +51,14 @@ import { t } from '../langStore.js'
           </div>
         </article>
         <article class="rounded-xl border-2 border-green-200 overflow-hidden hover:shadow-xl transition hover:scale-105 transform">
-          <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=400&h=250&fit=crop" alt="Coffee Tours" class="w-full h-48 object-cover">
+          <img src="/coffee.png" alt="Coffee Tours" class="w-full h-48 object-cover">
           <div class="p-6">
             <h3 class="text-2xl font-bold text-green-900 mb-3">Coffee Tours</h3>
             <p class="text-gray-600">Discover Rwanda's renowned coffee plantations and learn the art of coffee production.</p>
           </div>
         </article>
         <article class="rounded-xl border-2 border-green-200 overflow-hidden hover:shadow-xl transition hover:scale-105 transform">
-          <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=250&fit=crop" alt="Mountain Views" class="w-full h-48 object-cover">
+          <img src="/Hills.jpg" alt="Mountain Views" class="w-full h-48 object-cover">
           <div class="p-6">
             <h3 class="text-2xl font-bold text-green-900 mb-3">Mountain Adventures</h3>
             <p class="text-gray-600">Hike scenic mountain trails with panoramic views of Rwanda's volcanic landscapes.</p>

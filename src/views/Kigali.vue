@@ -4,7 +4,7 @@ import { t } from '../langStore.js'
 
 <template>
   <!-- Hero Section -->
-  <section class="relative min-h-96 bg-cover bg-center flex items-center justify-center text-white mt-16" style="background-image: url('https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=1200&h=400&fit=crop');">
+  <section class="relative min-h-96 bg-cover bg-center flex items-center justify-center text-white mt-16" style="background-image: url('/kigali.png');">
     <div class="absolute inset-0 bg-black/55"></div>
     <div class="relative text-center px-6 max-w-3xl">
       <h1 class="text-5xl md:text-6xl font-extrabold mb-4">{{ t('provinces.kigali.title') }}</h1>
@@ -18,7 +18,7 @@ import { t } from '../langStore.js'
       <div class="grid md:grid-cols-2 gap-8 items-center">
         <!-- Left: Image -->
         <div class="rounded-lg overflow-hidden shadow-xl">
-          <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=600&h=500&fit=crop" alt="Kigali City" class="w-full h-96 object-cover">
+          <img src="/kigali.png" alt="Kigali City" class="w-full h-96 object-cover">
         </div>
         <!-- Right: Location Info -->
         <div>
@@ -46,21 +46,21 @@ import { t } from '../langStore.js'
       <h2 class="text-4xl font-bold text-center text-green-900 mb-12">Urban Experiences</h2>
       <div class="grid md:grid-cols-3 gap-8">
         <article class="rounded-xl border-2 border-slate-200 overflow-hidden hover:shadow-xl transition hover:scale-105 transform">
-          <img src="https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?w=400&h=250&fit=crop" alt="Kigali Genocide Memorial" class="w-full h-48 object-cover">
+          <img src="/genocide.png" alt="Kigali Genocide Memorial" class="w-full h-48 object-cover">
           <div class="p-6">
             <h3 class="text-2xl font-bold text-green-900 mb-3">Kigali Genocide Memorial</h3>
             <p class="text-gray-600">Visit Rwanda’s most powerful memorial and learn about the city’s history and resilience.</p>
           </div>
         </article>
         <article class="rounded-xl border-2 border-slate-200 overflow-hidden hover:shadow-xl transition hover:scale-105 transform">
-          <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?w=400&h=250&fit=crop" alt="Markets" class="w-full h-48 object-cover">
+          <img src="/market.png" alt="Markets" class="w-full h-48 object-cover">
           <div class="p-6">
             <h3 class="text-2xl font-bold text-green-900 mb-3">Local Markets</h3>
             <p class="text-gray-600">Explore vibrant markets, art galleries, and Kigali’s rich street food culture.</p>
           </div>
         </article>
         <article class="rounded-xl border-2 border-slate-200 overflow-hidden hover:shadow-xl transition hover:scale-105 transform">
-          <img src="https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=400&h=250&fit=crop" alt="City Tours" class="w-full h-48 object-cover">
+          <img src="/tour.png" alt="City Tours" class="w-full h-48 object-cover">
           <div class="p-6">
             <h3 class="text-2xl font-bold text-green-900 mb-3">City Tours</h3>
             <p class="text-gray-600">Enjoy curated city tours to discover Kigali’s architecture, dining scene, and attractions.</p>
@@ -71,7 +71,7 @@ import { t } from '../langStore.js'
   </section>
 
   <!-- CTA Section -->
-  <section class="bg-slate-900 text-white py-12">
+  <section class="bg-green-900 text-white py-12">
     <div class="mx-auto max-w-4xl text-center px-6">
       <h2 class="text-4xl font-bold mb-6">Explore Kigali’s Best Sites</h2>
       <a href="/contact" class="inline-block bg-yellow-400 text-green-900 font-bold px-8 py-4 rounded-full hover:bg-yellow-300 transition">Contact Our Team</a>

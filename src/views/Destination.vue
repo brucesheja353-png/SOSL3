@@ -17,7 +17,7 @@ import { t } from '../langStore.js'
         <!-- Northern Province -->
         <article class="rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition hover:-translate-y-2 bg-white">
           <div class="relative h-56 overflow-hidden">
-            <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=600&h=400&fit=crop" alt="Northern Province" class="w-full h-full object-cover">
+            <img src="/north.png" alt="Northern Province" class="w-full h-full object-cover">
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
           </div>
           <div class="p-6">
@@ -36,7 +36,7 @@ import { t } from '../langStore.js'
         <!-- Western Province -->
         <article class="rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition hover:-translate-y-2 bg-white">
           <div class="relative h-56 overflow-hidden">
-            <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=600&h=400&fit=crop" alt="Western Province" class="w-full h-full object-cover">
+            <img src="/west.png" alt="Western Province" class="w-full h-full object-cover">
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
           </div>
           <div class="p-6">
@@ -55,7 +55,7 @@ import { t } from '../langStore.js'
         <!-- Eastern Province -->
         <article class="rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition hover:-translate-y-2 bg-white">
           <div class="relative h-56 overflow-hidden">
-            <img src="https://images.unsplash.com/photo-1489749798305-4fea3ba63d60?w=600&h=400&fit=crop" alt="Eastern Province" class="w-full h-full object-cover">
+            <img src="/east.png" alt="Eastern Province" class="w-full h-full object-cover">
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
           </div>
           <div class="p-6">
@@ -74,7 +74,7 @@ import { t } from '../langStore.js'
         <!-- Southern Province -->
         <article class="rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition hover:-translate-y-2 bg-white">
           <div class="relative h-56 overflow-hidden">
-            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600&h=400&fit=crop" alt="Southern Province" class="w-full h-full object-cover">
+            <img src="/south.png" alt="Southern Province" class="w-full h-full object-cover">
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
           </div>
           <div class="p-6">
@@ -93,7 +93,7 @@ import { t } from '../langStore.js'
         <!-- Kigali City -->
         <article class="rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition hover:-translate-y-2 bg-white md:col-span-2 lg:col-span-1">
           <div class="relative h-56 overflow-hidden">
-            <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=600&h=400&fit=crop" alt="Kigali City" class="w-full h-full object-cover">
+            <img src="/kigali.png" alt="Kigali City" class="w-full h-full object-cover">
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
           </div>
           <div class="p-6">
